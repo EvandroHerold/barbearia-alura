@@ -1,0 +1,92 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav	{
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
+
+.navegacao {
+	display: inline;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.quem-somos {
+	width: 50%;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.quem-somos h2 {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.quem-somos p {
+	text-align: justify;
+	padding-top: 10px;
+}
+
+.diferenciais {
+	width: 50%;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.diferenciais h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.diferenciais li {
+	margin: 10px 0;
+}
+
+.banner {
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyrigth {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px 0 0;
+}
